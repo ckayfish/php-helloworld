@@ -4,7 +4,7 @@
  </head>
  <body>
  <?php
- echo '<p>Hello World! My name is <strong>PHP</strong> and my location is ' . $_SERVER['SERVER_ADDR'] . '. Would you like to be my friend?</p>';
+ echo "<p>Hello World! My name is <strong>PHP</strong> and my location is " . $_SERVER['SERVER_ADDR'] . ". Let's be friends?</p>";
   ?>
  </body>
 </html>
