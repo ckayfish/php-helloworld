@@ -1,2 +1,2 @@
 # php-helloworld
-A truly complex achievment if there ever was one. (Aka, git pull app sample)
+Simple PHP website repo. for use with container source-2-image builds
