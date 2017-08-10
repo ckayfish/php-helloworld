@@ -3,10 +3,10 @@
   <title>PHP Says Hello</title>
  </head>
  <body>
-  <div style="background-color:PaleGreen;height:50px;width:700px">
+  <div style="background-color:PaleGreen;height:50px;width:640px">
   </div>
 <?php
- echo "<p>Hello World!"."My name is: <strong>". gethostname()  ."</strong>. My address: <strong>" . $_SERVER['SERVER_ADDR'] . "</strong>. My php version is: <strong>". phpversion() . "</strong></p>";
+ echo "<p>Hello World! I'm <strong>". gethostname()  ."</strong> and my address is <strong>" . $_SERVER['SERVER_ADDR'] . "</strong> and I'm served by PHP v<strong>". phpversion() . "</strong></p>";
   ?>
  </body>
 </html>
