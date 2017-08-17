@@ -6,7 +6,7 @@
    <!-- background-color options: powderblue, palegreen, yellow - https://www.w3schools.com/cssref/css_colors.asp -->
   <div style="display: inline-block; padding: 5px; background-color: yellow">
    <?php
- echo "<p>Hello Again! I'm <strong>". gethostname()  ."</strong>, my address is <strong>" . $_SERVER['SERVER_ADDR'] . "</strong> and I'm served by PHP v<strong>". phpversion() . "</strong></p>";
+ echo "<p>I'm <b>". gethostname()  ."</b>, my address is <b>" . $_SERVER['SERVER_ADDR'] . "</b> and I'm served by PHP v<b>". phpversion() . "</b></p>";
   ?>
   </div>
 
